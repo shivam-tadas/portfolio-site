@@ -1,13 +1,13 @@
-import './App.css'
+import React from 'react';
+import Hero from './components/Hero';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <div class='text-2xl text-amber-200 mx-5'>
-        Hello
-      </div>
-    </>
-  )
+    <div class="App font-Inter">
+      <Hero />
+    </div>
+  );
 }
 
-export default App
+export default App;
